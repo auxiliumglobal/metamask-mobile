@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
 	linkText: {
 		...fontStyles.normal,
 		fontSize: 14,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		alignSelf: 'center',
 		textAlign: 'center',
 		marginVertical: 16
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
 		flexGrow: 1
 	},
 	icon: {
-		color: colors.blue,
+		color: colors.auxPrimary,
 		marginBottom: 16
 	},
 	blueIcon: {
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
 	},
 	buttonText: {
 		...fontStyles.bold,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		fontSize: 14,
 		marginLeft: 8
 	},
@@ -264,7 +264,7 @@ class PaymentRequestSuccess extends PureComponent {
 							>
 								<View style={styles.buttonContent}>
 									<View style={styles.buttonIconWrapper}>
-										<IonicIcon name={'ios-link'} size={18} color={colors.blue} />
+										<IonicIcon name={'ios-link'} size={18} color={colors.auxPrimary} />
 									</View>
 									<View style={styles.buttonTextWrapper}>
 										<Text style={styles.buttonText}>
@@ -281,7 +281,7 @@ class PaymentRequestSuccess extends PureComponent {
 							>
 								<View style={styles.buttonContent}>
 									<View style={styles.buttonIconWrapper}>
-										<FontAwesome name={'qrcode'} size={18} color={colors.blue} />
+										<FontAwesome name={'qrcode'} size={18} color={colors.auxPrimary} />
 									</View>
 									<View style={styles.buttonTextWrapper}>
 										<Text style={styles.buttonText}>{strings('payment_request.qr_code')}</Text>

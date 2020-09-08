@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
 	},
 	warningLink: {
 		...fontStyles.normal,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		textAlign: 'center',
 		paddingHorizontal: 10,
 		paddingBottom: 10,
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
 		marginBottom: 4
 	},
 	readMore: {
-		color: colors.blue,
+		color: colors.auxPrimary,
 		fontSize: 14,
 		...fontStyles.bold
 	},

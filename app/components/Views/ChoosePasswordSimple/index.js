@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
 	},
 	// eslint-disable-next-line react-native/no-unused-styles
 	strength_good: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	// eslint-disable-next-line react-native/no-unused-styles
 	strength_strong: {

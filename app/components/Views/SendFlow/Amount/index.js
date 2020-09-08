@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
 		flex: 0.8
 	},
 	actionDropdown: {
-		backgroundColor: colors.blue,
+		backgroundColor: colors.auxPrimary,
 		paddingHorizontal: 16,
 		paddingVertical: 2,
 		borderRadius: 100,
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
 	maxText: {
 		...fontStyles.normal,
 		fontSize: 12,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		alignSelf: 'flex-end',
 		textTransform: 'uppercase'
 	},
@@ -971,7 +971,7 @@ class Amount extends PureComponent {
 									<MaterialCommunityIcons
 										name="swap-vertical"
 										size={16}
-										color={colors.blue}
+										color={colors.auxPrimary}
 										style={styles.switch}
 									/>
 								</View>

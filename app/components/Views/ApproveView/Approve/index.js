@@ -74,20 +74,20 @@ const styles = StyleSheet.create({
 	},
 	editPermissionText: {
 		...fontStyles.bold,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		fontSize: 12,
 		lineHeight: 20,
 		textAlign: 'center',
 		marginVertical: 20,
 		borderWidth: 1,
 		borderRadius: 20,
-		borderColor: colors.blue,
+		borderColor: colors.auxPrimary,
 		paddingVertical: 8,
 		paddingHorizontal: 16
 	},
 	viewDetailsText: {
 		...fontStyles.normal,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		fontSize: 12,
 		lineHeight: 16,
 		marginTop: 20,
@@ -134,14 +134,14 @@ const styles = StyleSheet.create({
 		height: 8,
 		borderRadius: 8 / 2,
 		margin: 3,
-		backgroundColor: colors.blue
+		backgroundColor: colors.auxPrimary
 	},
 	outSelectedCircle: {
 		width: 18,
 		height: 18,
 		borderRadius: 18 / 2,
 		borderWidth: 2,
-		borderColor: colors.blue
+		borderColor: colors.auxPrimary
 	},
 	circle: {
 		width: 18,
@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
 		color: colors.grey500
 	},
 	textBlue: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	textBlack: {
 		color: colors.black

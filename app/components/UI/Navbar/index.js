@@ -41,8 +41,8 @@ const styles = StyleSheet.create({
 		marginBottom: 12
 	},
 	metamaskName: {
-		width: 122,
-		height: 15
+		width: 145,
+		height: 30
 	},
 	metamaskFox: {
 		width: 40,
@@ -51,10 +51,10 @@ const styles = StyleSheet.create({
 	},
 	closeIcon: {
 		paddingLeft: Device.isAndroid() ? 22 : 18,
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	backIcon: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	backIconIOS: {
 		marginHorizontal: 4,
@@ -84,13 +84,13 @@ const styles = StyleSheet.create({
 		marginTop: 5
 	},
 	infoIcon: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	flex: {
 		flex: 1
 	},
 	closeButtonText: {
-		color: colors.blue,
+		color: colors.auxPrimary,
 		fontSize: 14,
 		...fontStyles.normal
 	},
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
 	}
 });
 
-const metamask_name = require('../../../images/metamask-name.png'); // eslint-disable-line
+const metamask_name = require('../../../images/aux_logo_dark.png'); // eslint-disable-line
 const metamask_fox = require('../../../images/fox.png'); // eslint-disable-line
 /**
  * Function that returns the navigation options
@@ -196,7 +196,7 @@ export function getNavigationOptionsTitle(title, navigation) {
 			color: colors.fontPrimary,
 			...fontStyles.normal
 		},
-		headerTintColor: colors.blue,
+		headerTintColor: colors.auxPrimary,
 		headerLeft: (
 			<TouchableOpacity onPress={navigationPop} style={styles.backButton} testID={'title-back-arrow-button'}>
 				<IonicIcon
@@ -233,7 +233,7 @@ export function getEditableOptions(title, navigation) {
 			color: colors.fontPrimary,
 			...fontStyles.normal
 		},
-		headerTintColor: colors.blue,
+		headerTintColor: colors.auxPrimary,
 		headerLeft: (
 			<TouchableOpacity onPress={navigationPop} style={styles.backButton} testID={'edit-contact-back-button'}>
 				<IonicIcon
@@ -272,7 +272,7 @@ export function getPaymentRequestOptionsTitle(title, navigation) {
 			color: colors.fontPrimary,
 			...fontStyles.normal
 		},
-		headerTintColor: colors.blue,
+		headerTintColor: colors.auxPrimary,
 		headerLeft: goBack ? (
 			// eslint-disable-next-line react/jsx-no-bind
 			<TouchableOpacity onPress={goBack} style={styles.backButton} testID={'request-search-asset-back-button'}>
@@ -308,7 +308,7 @@ export function getPaymentRequestSuccessOptionsTitle(navigation) {
 			backgroundColor: colors.white,
 			borderBottomWidth: 0
 		},
-		headerTintColor: colors.blue,
+		headerTintColor: colors.auxPrimary,
 		headerLeft: <View />,
 		headerRight: (
 			<TouchableOpacity

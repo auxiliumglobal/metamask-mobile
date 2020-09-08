@@ -39,7 +39,7 @@ const style = StyleSheet.create({
 		lineHeight: 30
 	},
 	link: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	strikethrough: {
 		textDecorationLine: 'line-through'

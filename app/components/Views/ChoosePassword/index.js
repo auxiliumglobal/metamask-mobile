@@ -102,9 +102,9 @@ const styles = StyleSheet.create({
 		paddingHorizontal: 10
 	},
 	learnMore: {
-		color: colors.blue,
+		color: colors.auxPrimary,
 		textDecorationLine: 'underline',
-		textDecorationColor: colors.blue
+		textDecorationColor: colors.auxPrimary
 	},
 	field: {
 		position: 'relative'
@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
 	},
 	// eslint-disable-next-line react-native/no-unused-styles
 	strength_good: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	// eslint-disable-next-line react-native/no-unused-styles
 	strength_strong: {
@@ -514,7 +514,7 @@ class ChoosePassword extends PureComponent {
 						<View style={styles.foxWrapper}>
 							{Device.isAndroid() ? (
 								<Image
-									source={require('../../../images/fox.png')}
+									source={require('../../../images/aux_logo.png')}
 									style={styles.image}
 									resizeMethod={'auto'}
 								/>
@@ -522,7 +522,7 @@ class ChoosePassword extends PureComponent {
 								<AnimatedFox />
 							)}
 						</View>
-						<ActivityIndicator size="large" color={Device.isAndroid() ? colors.blue : colors.grey} />
+						<ActivityIndicator size="large" color={Device.isAndroid() ? colors.auxPrimary : colors.grey} />
 						<Text style={styles.title}>
 							{strings(
 								previousScreen === 'onboarding'
@@ -603,7 +603,7 @@ class ChoosePassword extends PureComponent {
 										value={isSelected}
 										onValueChange={this.setSelection}
 										style={styles.checkbox}
-										tintColors={{ true: colors.blue }}
+										tintColors={{ true: colors.auxPrimary }}
 										boxType="square"
 									/>
 									<Text style={styles.label} onPress={this.setSelection}>

@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
 		fontSize: 14,
 		color: colors.fontPrimary,
 		backgroundColor: colors.white,
-		borderColor: colors.blue,
+		borderColor: colors.auxPrimary,
 		borderWidth: 1,
 		borderRadius: 13,
 		textAlign: 'center',

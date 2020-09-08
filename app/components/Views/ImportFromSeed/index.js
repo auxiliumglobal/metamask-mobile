@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
 	},
 	// eslint-disable-next-line react-native/no-unused-styles
 	strength_good: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	// eslint-disable-next-line react-native/no-unused-styles
 	strength_strong: {
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
 		paddingHorizontal: 6
 	},
 	inputFocused: {
-		borderColor: colors.blue,
+		borderColor: colors.auxPrimary,
 		borderWidth: 2
 	}
 });
@@ -468,7 +468,7 @@ class ImportFromSeed extends PureComponent {
 								onChangeText={this.onPasswordChange}
 								value={password}
 								baseColor={colors.grey500}
-								tintColor={colors.blue}
+								tintColor={colors.auxPrimary}
 								onSubmitEditing={this.jumpToConfirmPassword}
 								renderRightAccessory={() => (
 									<TouchableOpacity onPress={this.toggleShowHide} style={styles.showHideToggle}>
@@ -502,7 +502,7 @@ class ImportFromSeed extends PureComponent {
 								placeholder={strings('import_from_seed.confirm_password')}
 								value={confirmPassword}
 								baseColor={colors.grey500}
-								tintColor={colors.blue}
+								tintColor={colors.auxPrimary}
 								onSubmitEditing={this.onPressImport}
 							/>
 

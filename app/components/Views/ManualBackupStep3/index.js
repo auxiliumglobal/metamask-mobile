@@ -93,10 +93,10 @@ const styles = StyleSheet.create({
 	},
 	hintText: {
 		marginBottom: 26,
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	learnText: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	recoverText: {
 		marginBottom: 26

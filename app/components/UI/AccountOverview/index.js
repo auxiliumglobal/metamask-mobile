@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
 		borderRadius: 80,
 		borderWidth: 2,
 		padding: 2,
-		borderColor: colors.blue
+		borderColor: colors.auxPrimary
 	},
 	onboardingWizardLabel: {
 		borderWidth: 2,
@@ -237,7 +237,7 @@ class AccountOverview extends PureComponent {
 										styles.label,
 										styles.labelInput,
 										styles.onboardingWizardLabel,
-										onboardingWizard ? { borderColor: colors.blue } : { borderColor: colors.white }
+										onboardingWizard ? { borderColor: colors.auxPrimary } : { borderColor: colors.white }
 									]}
 									editable={accountLabelEditable}
 									onChangeText={this.onAccountLabelChange}
@@ -259,7 +259,7 @@ class AccountOverview extends PureComponent {
 											styles.label,
 											styles.onboardingWizardLabel,
 											onboardingWizard
-												? { borderColor: colors.blue }
+												? { borderColor: colors.auxPrimary }
 												: { borderColor: colors.white }
 										]}
 										numberOfLines={1}

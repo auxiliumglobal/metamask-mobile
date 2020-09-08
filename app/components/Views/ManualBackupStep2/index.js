@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
 		color: colors.fontPrimary,
 		width: 95,
 		backgroundColor: colors.white,
-		borderColor: colors.blue,
+		borderColor: colors.auxPrimary,
 		borderWidth: 1,
 		marginBottom: 6,
 		borderRadius: 13,
@@ -134,11 +134,11 @@ const styles = StyleSheet.create({
 	},
 	currentWord: {
 		borderWidth: 1,
-		borderColor: colors.blue
+		borderColor: colors.auxPrimary
 	},
 	confirmedWord: {
 		borderWidth: 1,
-		borderColor: colors.blue,
+		borderColor: colors.auxPrimary,
 		borderStyle: 'solid'
 	}
 });

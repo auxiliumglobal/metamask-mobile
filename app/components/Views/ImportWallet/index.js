@@ -446,7 +446,7 @@ class ImportWallet extends PureComponent {
 								<View style={styles.foxWrapper}>
 									{Device.isAndroid() ? (
 										<Image
-											source={require('../../../images/fox.png')}
+											source={require('../../../images/aux_logo.png')}
 											style={styles.image}
 											resizeMethod={'auto'}
 										/>

@@ -66,13 +66,13 @@ const styles = StyleSheet.create({
 		...fontStyles.bold
 	},
 	blue: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	remindLaterText: {
 		textAlign: 'center',
 		fontSize: 15,
 		lineHeight: 20,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		...fontStyles.normal
 	},
 	remindLaterSubText: {
@@ -316,7 +316,7 @@ const AccountBackupStep1 = props => {
 							value={skipCheckbox}
 							onValueChange={toggleSkipCheckbox}
 							boxType={'square'}
-							tintColors={{ true: colors.blue }}
+							tintColors={{ true: colors.auxPrimary }}
 						/>
 						<Text onPress={toggleSkipCheckbox} style={styles.skipModalText}>
 							{strings('account_backup_step_1.skip_check')}

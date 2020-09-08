@@ -63,8 +63,8 @@ const styles = StyleSheet.create({
 	},
 	metamaskName: {
 		marginTop: 4,
-		width: 90,
-		height: 18
+		width: 100,
+		height: 20
 	},
 	account: {
 		flex: 1,
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
 		borderRadius: 96,
 		borderWidth: 2,
 		padding: 2,
-		borderColor: colors.blue
+		borderColor: colors.auxPrimary
 	},
 	accountNameWrapper: {
 		flexDirection: 'row',
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
 	buttonText: {
 		paddingLeft: 8,
 		fontSize: 15,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		...fontStyles.normal
 	},
 	buttonContent: {
@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
 		borderBottomRightRadius: 20
 	},
 	selectedName: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	menuItemName: {
 		flex: 1,
@@ -250,8 +250,8 @@ const styles = StyleSheet.create({
 	protectWalletButtonWrapper: { marginVertical: 8 }
 });
 
-const metamask_name = require('../../../images/metamask-name.png'); // eslint-disable-line
-const metamask_fox = require('../../../images/fox.png'); // eslint-disable-line
+const metamask_name = require('../../../images/aux_logo_dark.png'); // eslint-disable-line
+const metamask_fox = require('../../../images/aux_logo.png'); // eslint-disable-line
 const ICON_IMAGES = {
 	wallet: require('../../../images/wallet-icon.png'),
 	'selected-wallet': require('../../../images/selected-wallet-icon.png')
@@ -642,15 +642,15 @@ class DrawerView extends PureComponent {
 	}
 
 	getSelectedIcon(name, size) {
-		return <Icon name={name} size={size || 24} color={colors.blue} />;
+		return <Icon name={name} size={size || 24} color={colors.auxPrimary} />;
 	}
 
 	getSelectedFeatherIcon(name, size) {
-		return <FeatherIcon name={name} size={size || 24} color={colors.blue} />;
+		return <FeatherIcon name={name} size={size || 24} color={colors.auxPrimary} />;
 	}
 
 	getSelectedMaterialIcon(name, size) {
-		return <MaterialIcon name={name} size={size || 24} color={colors.blue} />;
+		return <MaterialIcon name={name} size={size || 24} color={colors.auxPrimary} />;
 	}
 
 	getSelectedImageIcon(name) {
@@ -672,13 +672,15 @@ class DrawerView extends PureComponent {
 		}
 		return [
 			[
-				{
-					name: strings('drawer.browser'),
-					icon: this.getIcon('globe'),
-					selectedIcon: this.getSelectedIcon('globe'),
-					action: this.goToBrowser,
-					routeNames: ['BrowserView', 'AddBookmark']
-				},
+				// edit_sept_08_2020
+				// rickvanhemert_auxilium
+				// {
+				// 	name: strings('drawer.browser'),
+				// 	icon: this.getIcon('globe'),
+				// 	selectedIcon: this.getSelectedIcon('globe'),
+				// 	action: this.goToBrowser,
+				// 	routeNames: ['BrowserView', 'AddBookmark']
+				// },
 				{
 					name: strings('drawer.wallet'),
 					icon: this.getImageIcon('wallet'),
@@ -701,18 +703,23 @@ class DrawerView extends PureComponent {
 				}
 			],
 			[
-				{
-					name: strings('drawer.share_address'),
-					icon: this.getMaterialIcon('share-variant'),
-					action: this.onShare
-				},
-				{
-					name:
-						(blockExplorer && `${strings('drawer.view_in')} ${blockExplorerName}`) ||
-						strings('drawer.view_in_etherscan'),
-					icon: this.getIcon('eye'),
-					action: this.viewInEtherscan
-				}
+				// edit_sept_08_2020
+				// rickvanhemert_auxilium
+				// {
+				// 	name: strings('drawer.share_address'),
+				// 	icon: this.getMaterialIcon('share-variant'),
+				// 	action: this.onShare
+				// },
+
+				// edit_sept_08_2020
+				// rickvanhemert_auxilium
+				// {
+				// 	name:
+				// 		(blockExplorer && `${strings('drawer.view_in')} ${blockExplorerName}`) ||
+				// 		strings('drawer.view_in_etherscan'),
+				// 	icon: this.getIcon('eye'),
+				// 	action: this.viewInEtherscan
+				// }
 			],
 			[
 				{
@@ -847,7 +854,7 @@ class DrawerView extends PureComponent {
 				<ScrollView>
 					<View style={styles.header}>
 						<View style={styles.metamaskLogo}>
-							<Image source={metamask_fox} style={styles.metamaskFox} resizeMethod={'auto'} />
+							{/* <Image source={metamask_fox} style={styles.metamaskFox} resizeMethod={'auto'} /> */}
 							<Image source={metamask_name} style={styles.metamaskName} resizeMethod={'auto'} />
 						</View>
 					</View>
@@ -899,7 +906,7 @@ class DrawerView extends PureComponent {
 								<MaterialIcon
 									name={'arrow-top-right'}
 									size={22}
-									color={colors.blue}
+									color={colors.auxPrimary}
 									style={styles.buttonIcon}
 								/>
 								<Text style={styles.buttonText}>{strings('drawer.send_button')}</Text>
@@ -915,7 +922,7 @@ class DrawerView extends PureComponent {
 								<MaterialIcon
 									name={'keyboard-tab'}
 									size={22}
-									color={colors.blue}
+									color={colors.auxPrimary}
 									style={[styles.buttonIcon, styles.buttonReceive]}
 								/>
 								<Text style={styles.buttonText}>{strings('drawer.receive_button')}</Text>

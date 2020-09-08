@@ -70,8 +70,8 @@ const styles = StyleSheet.create({
 		minWidth: 49
 	},
 	quickAmountSelected: {
-		backgroundColor: colors.blue,
-		borderColor: colors.blue
+		backgroundColor: colors.auxPrimary,
+		borderColor: colors.auxPrimary
 	},
 	quickAmountSelectedText: {
 		color: colors.white

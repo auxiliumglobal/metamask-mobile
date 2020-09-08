@@ -326,7 +326,7 @@ class Login extends PureComponent {
 					<View style={styles.foxWrapper}>
 						{Device.isAndroid() ? (
 							<Image
-								source={require('../../../images/fox.png')}
+								source={require('../../../images/aux_logo.png')}
 								style={styles.image}
 								resizeMethod={'auto'}
 							/>
@@ -347,7 +347,7 @@ class Login extends PureComponent {
 							onChangeText={this.setPassword}
 							value={this.state.password}
 							baseColor={colors.grey500}
-							tintColor={colors.blue}
+							tintColor={colors.auxPrimary}
 							onSubmitEditing={this.onLogin}
 							renderRightAccessory={() => (
 								<BiometryButton

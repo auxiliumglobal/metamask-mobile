@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
 		...fontStyles.bold
 	},
 	tabActionText: {
-		color: colors.blue,
+		color: colors.auxPrimary,
 		...fontStyles.normal,
 		fontSize: 16
 	},
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
 		alignSelf: 'center',
 		justifyContent: 'flex-start',
 		alignContent: 'flex-start',
-		backgroundColor: colors.blue,
+		backgroundColor: colors.auxPrimary,
 		borderRadius: 100,
 		width: 30,
 		height: 30,

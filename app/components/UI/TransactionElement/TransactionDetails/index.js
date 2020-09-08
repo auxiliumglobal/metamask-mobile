@@ -25,7 +25,7 @@ import DetailsModal from '../../../Base/DetailsModal';
 const styles = StyleSheet.create({
 	viewOnEtherscan: {
 		fontSize: 16,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		...fontStyles.normal,
 		textAlign: 'center'
 	},

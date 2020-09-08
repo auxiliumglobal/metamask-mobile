@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
 		marginTop: 29,
 		textAlign: 'center',
 		fontSize: 16,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		...fontStyles.normal
 	},
 	buttonContainer: {

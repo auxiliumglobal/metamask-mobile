@@ -159,7 +159,7 @@ class CreateWallet extends PureComponent {
 							<View style={styles.foxWrapper}>
 								{Device.isAndroid() ? (
 									<Image
-										source={require('../../../images/fox.png')}
+										source={require('../../../images/aux_logo.png')}
 										style={styles.image}
 										resizeMethod={'auto'}
 									/>
@@ -167,7 +167,7 @@ class CreateWallet extends PureComponent {
 									<AnimatedFox />
 								)}
 							</View>
-							<ActivityIndicator size="large" color={Device.isAndroid() ? colors.blue : colors.grey} />
+							<ActivityIndicator size="large" color={Device.isAndroid() ? colors.auxPrimary : colors.grey} />
 							<Text style={styles.title}>{strings('create_wallet.title')}</Text>
 							<Text style={styles.subtitle}>{strings('create_wallet.subtitle')}</Text>
 						</View>

@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
 	},
 	selectorSelected: {
 		backgroundColor: colors.blue000,
-		borderColor: colors.blue,
+		borderColor: colors.auxPrimary,
 		zIndex: 1
 	},
 	slow: {

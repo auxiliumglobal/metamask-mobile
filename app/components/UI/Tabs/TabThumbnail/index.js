@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
 	},
 	activeTab: {
 		borderWidth: 5,
-		borderColor: colors.blue
+		borderColor: colors.auxPrimary
 	},
 	closeTabIcon: {
 		paddingHorizontal: 10,
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
 });
 
 const { HOMEPAGE_URL } = AppConstants;
-const METAMASK_FOX = require('../../../../images/fox.png'); // eslint-disable-line import/no-commonjs
+const METAMASK_FOX = require('../../../../images/aux_logo.png'); // eslint-disable-line import/no-commonjs
 
 /**
  * PureComponent that renders an a thumbnail

@@ -11,7 +11,7 @@ const style = StyleSheet.create({
 	container: {
 		borderWidth: 1,
 		borderRadius: 8,
-		borderColor: colors.blue,
+		borderColor: colors.auxPrimary,
 		paddingVertical: 15,
 		paddingHorizontal: 20,
 		marginHorizontal: 25,
@@ -31,7 +31,7 @@ const style = StyleSheet.create({
 		fontSize: 12,
 		paddingVertical: 4,
 		paddingHorizontal: 8,
-		backgroundColor: colors.blue,
+		backgroundColor: colors.auxPrimary,
 		color: colors.white,
 		margin: 0,
 		borderRadius: 12,

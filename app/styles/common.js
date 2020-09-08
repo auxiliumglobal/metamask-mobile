@@ -6,6 +6,7 @@
  * Map of color names to HEX values
  */
 export const colors = {
+	auxPrimary: '#34385F',
 	fontPrimary: '#000000',
 	fontSecondary: '#777777',
 	fontTertiary: '#AAAAAA',

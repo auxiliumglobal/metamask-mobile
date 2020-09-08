@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
 	},
 	navbarLeftText: {
 		fontSize: 18,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		...fontStyles.normal
 	},
 	seedPhraseWrapper: {

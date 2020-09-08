@@ -14,22 +14,22 @@ const styles = StyleSheet.create({
 		fontWeight: 'bold'
 	},
 	blue: {
-		backgroundColor: colors.blue
+		backgroundColor: colors.auxPrimary
 	},
 	blueText: {
 		color: colors.white
 	},
 	orange: {
-		backgroundColor: colors.blue
+		backgroundColor: colors.auxPrimary
 	},
 	orangeText: {
 		color: colors.white
 	},
 	infoText: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	confirm: {
-		backgroundColor: colors.blue,
+		backgroundColor: colors.auxPrimary,
 		minHeight: 50
 	},
 	confirmText: {
@@ -38,19 +38,19 @@ const styles = StyleSheet.create({
 	roundedNormal: {
 		backgroundColor: colors.white,
 		borderWidth: 1,
-		borderColor: colors.blue,
+		borderColor: colors.auxPrimary,
 		padding: 8
 	},
 	roundedNormalText: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	normal: {
 		backgroundColor: colors.white,
 		borderWidth: 1,
-		borderColor: colors.blue
+		borderColor: colors.auxPrimary
 	},
 	normalText: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	transparent: {
 		backgroundColor: colors.transparent,
@@ -68,10 +68,10 @@ const styles = StyleSheet.create({
 	signingCancel: {
 		backgroundColor: colors.white,
 		borderWidth: 1,
-		borderColor: colors.blue
+		borderColor: colors.auxPrimary
 	},
 	signingCancelText: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	warning: {
 		backgroundColor: colors.red
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
 	info: {
 		backgroundColor: colors.white,
 		borderWidth: 1,
-		borderColor: colors.blue
+		borderColor: colors.auxPrimary
 	},
 	warningText: {
 		color: colors.white
@@ -96,9 +96,9 @@ const styles = StyleSheet.create({
 		color: colors.grey500
 	},
 	sign: {
-		backgroundColor: colors.blue,
+		backgroundColor: colors.auxPrimary,
 		borderWidth: 1,
-		borderColor: colors.blue
+		borderColor: colors.auxPrimary
 	},
 	signText: {
 		color: colors.white

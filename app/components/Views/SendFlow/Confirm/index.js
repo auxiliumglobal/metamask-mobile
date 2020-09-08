@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
 	},
 	actionText: {
 		...fontStyles.normal,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		fontSize: 14,
 		alignSelf: 'center'
 	},

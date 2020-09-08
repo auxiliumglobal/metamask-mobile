@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
 		alignSelf: 'center',
 		justifyContent: 'center',
 		marginTop: 3,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		...fontStyles.fontPrimary
 	},
 	optionIconWrapper: {
@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
 		alignSelf: 'center'
 	},
 	optionIcon: {
-		color: colors.blue,
+		color: colors.auxPrimary,
 		textAlign: 'center',
 		alignSelf: 'center',
 		fontSize: 18
@@ -198,7 +198,7 @@ const styles = StyleSheet.create({
 	},
 	cancelButtonText: {
 		fontSize: 14,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		...fontStyles.normal
 	},
 	iconCloseButton: {

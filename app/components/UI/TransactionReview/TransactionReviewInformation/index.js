@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
 		textTransform: 'uppercase'
 	},
 	overviewAccent: {
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	overviewEth: {
 		...fontStyles.normal,
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
 		alignSelf: 'center'
 	},
 	viewDataText: {
-		color: colors.blue,
+		color: colors.auxPrimary,
 		textAlign: 'center',
 		fontSize: 12,
 		...fontStyles.bold,

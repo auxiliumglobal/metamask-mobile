@@ -8,7 +8,7 @@ import onboardingStyles from './../styles';
 
 const styles = StyleSheet.create({
 	coachmark: {
-		backgroundColor: colors.blue,
+		backgroundColor: colors.auxPrimary,
 		borderRadius: 8,
 		padding: 18
 	},
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
 		borderBottomWidth: 12,
 		borderLeftColor: colors.transparent,
 		borderRightColor: colors.transparent,
-		borderBottomColor: colors.blue,
+		borderBottomColor: colors.auxPrimary,
 		position: 'absolute'
 	},
 	triangleDown: {
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
 		borderTopWidth: 12,
 		borderLeftColor: colors.transparent,
 		borderRightColor: colors.transparent,
-		borderTopColor: colors.blue,
+		borderTopColor: colors.auxPrimary,
 		position: 'absolute'
 	},
 	progressButton: {

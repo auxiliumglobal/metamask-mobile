@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
 
 function HeaderLogo() {
 	return (
-		<Image style={styles.headerLogo} source={require('../../../images/metamask-name.png')} resizeMode={'contain'} />
+		<Image style={styles.headerLogo} source={require('../../../images/aux_logo_dark.png')} resizeMode={'contain'} />
 	);
 }
 

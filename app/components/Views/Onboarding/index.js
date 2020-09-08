@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
 	},
 	login: {
 		fontSize: 18,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		...fontStyles.normal
 	},
 	buttonDescription: {
@@ -525,7 +525,7 @@ class Onboarding extends PureComponent {
 							{strings('import_wallet.import_from_seed_button')}
 						</StyledButton>
 					</View>
-					<View style={styles.buttonWrapper}>
+					{/* <View style={styles.buttonWrapper}>
 						<StyledButton
 							style={styles.button}
 							type={'normal'}
@@ -534,7 +534,7 @@ class Onboarding extends PureComponent {
 						>
 							{strings('import_wallet.sync_from_browser_extension_button')}
 						</StyledButton>
-					</View>
+					</View> */}
 					<View style={styles.buttonWrapper}>
 						<StyledButton
 							style={styles.button}

@@ -157,7 +157,7 @@ class AccountBackupStep6 extends PureComponent {
 								<Text style={styles.label}>{strings('account_backup_step_6.tip_2')}</Text>
 							</View>
 							<TouchableOpacity style={styles.copy} onPress={this.onCopySeedPhrase}>
-								<Text style={[styles.label, { color: colors.blue }]}>
+								<Text style={[styles.label, { color: colors.auxPrimary }]}>
 									{strings('account_backup_step_6.copy_seed_phrase')}
 								</Text>
 							</TouchableOpacity>

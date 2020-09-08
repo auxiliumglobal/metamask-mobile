@@ -136,7 +136,7 @@ class ExperimentalSettings extends PureComponent {
 							<Switch
 								value={paymentChannelsEnabled}
 								onValueChange={this.togglePaymentChannels}
-								trackColor={Device.isIos() ? { true: colors.blue, false: colors.grey000 } : null}
+								trackColor={Device.isIos() ? { true: colors.auxPrimary, false: colors.grey000 } : null}
 								ios_backgroundColor={colors.grey000}
 							/>
 						</View>

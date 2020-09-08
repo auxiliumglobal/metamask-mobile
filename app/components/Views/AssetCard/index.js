@@ -89,7 +89,7 @@ export default class AssetCard extends PureComponent {
 						<Text style={styles.balanceFiat}>{balanceFiat}</Text>
 						<View style={styles.qrCode}>
 							<TouchableOpacity onPress={openQrModal}>
-								<FontAwesome name={'qrcode'} size={24} color={colors.blue} />
+								<FontAwesome name={'qrcode'} size={24} color={colors.auxPrimary} />
 							</TouchableOpacity>
 						</View>
 					</View>

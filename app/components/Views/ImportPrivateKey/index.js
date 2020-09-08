@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
 	},
 	scanPkeyText: {
 		fontSize: 14,
-		color: colors.blue
+		color: colors.auxPrimary
 	},
 	icon: {
 		textAlign: 'left',

@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
 	},
 	backupAlertMessage: {
 		fontSize: 12,
-		color: colors.blue,
+		color: colors.auxPrimary,
 		marginLeft: 14,
 		...fontStyles.normal
 	},

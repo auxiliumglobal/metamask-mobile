@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
 	},
 	address: {
 		...fontStyles.bold,
-		color: colors.blue
+		color: colors.auxPrimary
 	}
 });
 
@@ -125,7 +125,7 @@ export default class TransactionReviewDetailsCard extends Component {
 								<Feather
 									name="copy"
 									size={16}
-									color={colors.blue}
+									color={colors.auxPrimary}
 									style={styles.copyIcon}
 									onPress={copyContractAddress}
 								/>

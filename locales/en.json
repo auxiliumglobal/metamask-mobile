@@ -43,7 +43,7 @@
 		"warning_text_1": "Your current wallet and accounts will be",
 		"warning_text_2": "removed",
 		"warning_text_3": "if you proceed.",
-		"warning_text_4": "You can ONLY recover them with your wallet’s seed phrase. MetaMask cannot help you recover it.",
+		"warning_text_4": "You can ONLY recover them with your wallet’s seed phrase. Auxilium cannot help you recover it.",
 		"warning_proceed": "Remove wallet & proceed",
 		"warning_cancel": "Cancel",
 		"step1": "Wallet setup",
@@ -59,12 +59,12 @@
 		"scan_step_4": "Scan the QR code to start syncing"
 	},
 	"onboarding_carousel": {
-		"title1": "Welcome to MetaMask",
+		"title1": "Welcome to Auxilium Wallet",
 		"title2": "Manage your digital assets",
 		"title3": "Your gateway to web3",
-		"subtitle1": "Trusted by millions, MetaMask is a secure wallet making the world of web3 accessible to all.",
+		"subtitle1": "Trusted by millions, Auxilium Wallet is a secure wallet making the world of web3 accessible to all.",
 		"subtitle2": "Store, spend and send digital assets like tokens, ethereum, unique collectibles.",
-		"subtitle3": "Login with MetaMask and make transactions to invest, earn, play games, sell and more!",
+		"subtitle3": "Login with Auxilium and make transactions to invest, earn, play games, sell and more!",
 		"get_started": "Get started"
 	},
 	"onboarding_wizard": {
@@ -111,7 +111,7 @@
 		"subtitle": "This shouldn’t take long"
 	},
 	"import_wallet": {
-		"title": "Already a MetaMask user?",
+		"title": "Already an Auxilium user?",
 		"sub_title": "Sync with the extension",
 		"sync_help": "Sync your wallet with the extension",
 		"sync_help_step_one": "1. Open the extension",
@@ -138,7 +138,7 @@
 	},
 	"choose_password": {
 		"title": "Create password",
-		"subtitle": "This password will unlock your MetaMask wallet only on this device.",
+		"subtitle": "This password will unlock your Auxilium wallet only on this device.",
 		"password": "New Password",
 		"confirm_password": "Confirm password",
 		"create_button": "Create password",
@@ -155,7 +155,7 @@
 		"remember_me": "Remember me",
 		"security_alert_title": "Security Alert",
 		"security_alert_message": "In order to proceed, you need to turn Passcode on or any biometrics authentication method supported in your device (FaceID, TouchID or Fingerprint)",
-		"i_understand": "I understand that MetaMask cannot recover this password for me.",
+		"i_understand": "I understand that Auxilium cannot recover this password for me.",
 		"learn_more": "Learn more.",
 		"secure": "Secure wallet",
 		"confirm": "Confirm seed phrase"
@@ -406,7 +406,7 @@
 		"remove_network_title": "Do you want to remove this network?",
 		"remove_network": "Remove",
 		"cancel_remove_network": "Cancel",
-		"info_title": "About MetaMask",
+		"info_title": "About Auxilium Wallet",
 		"experimental_title": "Experimental",
 		"experimental_desc": "WalletConnect & more...",
 		"legal_title": "Legal",
@@ -774,7 +774,7 @@
 	},
 	"sync_with_extension_success": {
 		"title": "Wallet imported",
-		"sync_complete_1": "Just remember, MetaMask cannot recover your seed phrase should you lose it. You can find the seed phrase in",
+		"sync_complete_1": "Just remember, Auxilium cannot recover your seed phrase should you lose it. You can find the seed phrase in",
 		"sync_complete_2": "Settings > Security & Privacy",
 		"button_continue": "Done",
 		"password_tip": "The password to unlock your mobile wallet is the same one you set for the extension.",
@@ -857,7 +857,7 @@
 	},
 	"import_private_key": {
 		"title": "Import Account",
-		"description_one": "Imported accounts are viewable in your wallet but are not recoverable with your MetaMask seed phrase.",
+		"description_one": "Imported accounts are viewable in your wallet but are not recoverable with your Auxilium seed phrase.",
 		"learn_more_here": "Learn more about imported accounts here.",
 		"subtitle": "Paste your private key string",
 		"cta_text": "IMPORT",
@@ -869,7 +869,7 @@
 	},
 	"import_private_key_success": {
 		"title": "Account successfully imported!",
-		"description_one": "You'll now be able to view your account in MetaMask."
+		"description_one": "You'll now be able to view your account in Auxilium Wallet."
 	},
 	"first_incoming_transaction": {
 		"title": "{{asset}} was deposited in your account",
@@ -884,7 +884,7 @@
 		"step_1_description": "Create password",
 		"step_2": "Step 2:",
 		"step_2_description": "Save wallet seed phrase",
-		"info_text_1": "Take a few moments to finish setting up your MetaMask wallet.",
+		"info_text_1": "Take a few moments to finish setting up your Auxilium wallet.",
 		"info_text_2": "This will ensure only you can access your funds and will let you recover your wallet if you lose your device",
 		"cta_text": "Create Password",
 		"creating_password": "Creating password..."
@@ -906,7 +906,7 @@
 		"what_is_seedphrase_title": "What is a ‘Seed phrase’",
 		"what_is_seedphrase_text_1": "A seed phrase is a set of twelve words that contains all the information about your wallet, including your funds. It’s like a secret code used to access your entire wallet.",
 		"what_is_seedphrase_text_2": "You must keep your seed phrase secret and safe. If someone gets your seed phrase, they’ll gain control over your accounts.",
-		"what_is_seedphrase_text_3": "Save it in a place where only you can access it. If you lose it, not even MetaMask can help you recover it."
+		"what_is_seedphrase_text_3": "Save it in a place where only you can access it. If you lose it, not even Auxilium can help you recover it."
 	},
 	"account_backup_step_1B": {
 		"title": "Secure your wallet",
@@ -979,7 +979,7 @@
 	},
 	"account_backup_step_6": {
 		"title": "Security Tips",
-		"info_text": "MetaMask cannot recover your seed phrase if you lose it",
+		"info_text": "Auxilium cannot recover your seed phrase if you lose it",
 		"tip_1": "Keep multiple backups of your seed phrase",
 		"tip_2": "Store the phrase in a trusted password manager and paper backups in a safe place",
 		"tip_3": "Never share this phrase with anyone",
@@ -1017,7 +1017,7 @@
 		"congratulations": "Congratulations",
 		"success": "You’ve successfully protected your wallet. Remember to keep your seed phrase safe, it's your responsibility!",
 		"hint": "Leave yourself a hint?",
-		"recover": "MetaMask cannot recover your wallet should you lose it. You can find your seedphrase in Settings > Security & Privacy.",
+		"recover": "Auxilium cannot recover your wallet should you lose it. You can find your seedphrase in Settings > Security & Privacy.",
 		"learn": "Learn more",
 		"done": "Done",
 		"recovery_hint": "Recovery hint",
@@ -1065,7 +1065,7 @@
 		"received_message": "Tap to view this transaction",
 		"received_payment_message": "You received {{amount}} DAI",
 		"prompt_title": "Enable Push Notifications",
-		"prompt_desc": "Enable notifications so MetaMask can let you know when you've received ETH or when your transactions have been confirmed.",
+		"prompt_desc": "Enable notifications so Auxilium can let you know when you've received AUX or when your transactions have been confirmed.",
 		"prompt_ok": "Yes",
 		"prompt_cancel": "No, thanks",
 		"wc_connected_title": "Connected to {{title}}",
@@ -1242,7 +1242,7 @@
 		"depositing_to": "Depositing to:"
 	},
 	"fiat_on_ramp": {
-		"buy_eth": "Buy ETH",
+		"buy_eth": "Buy AUX",
 		"purchased_currency": "Purchased {{currency}}",
 		"network_not_supported": "Current network not supported",
 		"switch_network": "Please switch to Mainnet",
